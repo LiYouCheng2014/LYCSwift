@@ -6,38 +6,10 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--发现-->
-        <scene sceneID="HW4-v0-ZOj">
-            <objects>
-                <tableViewController title="发现" id="6j5-nS-3yb" customClass="FindVC" customModule="LYCTplSwift" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="yOT-zX-ChP">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="2lv-US-WHo">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2lv-US-WHo" id="vMZ-Pa-TTo">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="6j5-nS-3yb" id="y4o-B6-WrV"/>
-                            <outlet property="delegate" destination="6j5-nS-3yb" id="yal-KP-b95"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="Jiz-7L-2l8"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="J5d-Ox-NGi" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="865" y="-1229"/>
-        </scene>
         <!--发现-->
         <scene sceneID="xiX-eT-mta">
             <objects>
@@ -48,12 +20,38 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="6j5-nS-3yb" kind="relationship" relationship="rootViewController" id="FVr-Pb-kw3"/>
+                        <segue destination="mgn-qe-YWa" kind="relationship" relationship="rootViewController" id="oNW-hu-u6T"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aA2-ma-h3m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-31" y="-1229"/>
+        </scene>
+        <!--FindVC-->
+        <scene sceneID="Peq-vG-Fvh">
+            <objects>
+                <viewController id="mgn-qe-YWa" customClass="FindVC" customModule="LYCTplSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s9q-KE-TmQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdd-Eb-YgM">
+                                <rect key="frame" x="149" y="118" width="77" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="分页控制器"/>
+                                <connections>
+                                    <action selector="goToPageController:" destination="mgn-qe-YWa" eventType="touchUpInside" id="jgc-4M-vj2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6D5-9C-21S"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wfB-31-IuC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6pi-fd-DHk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="954.39999999999998" y="-1230.1349325337333"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="vmo-Bi-tkc">

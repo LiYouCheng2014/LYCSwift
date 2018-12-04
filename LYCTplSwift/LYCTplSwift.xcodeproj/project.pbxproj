@@ -22,6 +22,16 @@
 		045FAC9421AEB1060030ED7B /* FindVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FAC9321AEB1060030ED7B /* FindVC.swift */; };
 		045FAC9821AEB4DC0030ED7B /* LYCNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FAC9721AEB4DC0030ED7B /* LYCNavigationController.swift */; };
 		045FAC9A21AEB5180030ED7B /* LYCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FAC9921AEB5180030ED7B /* LYCTabBarController.swift */; };
+		045FACBF21B2ACAB0030ED7B /* InputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FACBE21B2ACAB0030ED7B /* InputValidator.swift */; };
+		045FACC121B2AEA90030ED7B /* NumericInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FACC021B2AEA90030ED7B /* NumericInputValidator.swift */; };
+		045FACC321B2B0CD0030ED7B /* AlphaInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FACC221B2B0CD0030ED7B /* AlphaInputValidator.swift */; };
+		045FACC521B2B16E0030ED7B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FACC421B2B16E0030ED7B /* CustomTextField.swift */; };
+		045FACDA21B6CCFC0030ED7B /* JZYISwitchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FACD921B6CCFC0030ED7B /* JZYISwitchVC.swift */; };
+		045FACDC21B6CD410030ED7B /* JZYISwitchAVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FACDB21B6CD410030ED7B /* JZYISwitchAVC.swift */; };
+		045FACDE21B6CD4E0030ED7B /* JZYISwitchBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FACDD21B6CD4E0030ED7B /* JZYISwitchBVC.swift */; };
+		37B1D9EEA108034F61980F12 /* Pods_LYCTplSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4247A6D3595BE66EE8B9B42F /* Pods_LYCTplSwift.framework */; };
+		589A940BF7C9223A23706E17 /* Pods_LYCTplSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E63E269150A928C81FA7A28 /* Pods_LYCTplSwiftUITests.framework */; };
+		8EB967873315C6BFA07D16F5 /* Pods_LYCTplSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADAEB037BF774894AFA9100 /* Pods_LYCTplSwiftTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +73,22 @@
 		045FAC9321AEB1060030ED7B /* FindVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindVC.swift; sourceTree = "<group>"; };
 		045FAC9721AEB4DC0030ED7B /* LYCNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYCNavigationController.swift; sourceTree = "<group>"; };
 		045FAC9921AEB5180030ED7B /* LYCTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYCTabBarController.swift; sourceTree = "<group>"; };
+		045FACBE21B2ACAB0030ED7B /* InputValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputValidator.swift; sourceTree = "<group>"; };
+		045FACC021B2AEA90030ED7B /* NumericInputValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericInputValidator.swift; sourceTree = "<group>"; };
+		045FACC221B2B0CD0030ED7B /* AlphaInputValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaInputValidator.swift; sourceTree = "<group>"; };
+		045FACC421B2B16E0030ED7B /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		045FACD921B6CCFC0030ED7B /* JZYISwitchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZYISwitchVC.swift; sourceTree = "<group>"; };
+		045FACDB21B6CD410030ED7B /* JZYISwitchAVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZYISwitchAVC.swift; sourceTree = "<group>"; };
+		045FACDD21B6CD4E0030ED7B /* JZYISwitchBVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JZYISwitchBVC.swift; sourceTree = "<group>"; };
+		04AD32E70BDFDC4CE80D9E22 /* Pods-LYCTplSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYCTplSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYCTplSwiftTests/Pods-LYCTplSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E63E269150A928C81FA7A28 /* Pods_LYCTplSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYCTplSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4247A6D3595BE66EE8B9B42F /* Pods_LYCTplSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYCTplSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E4E01DE39F313B79DC78D7 /* Pods-LYCTplSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYCTplSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYCTplSwiftTests/Pods-LYCTplSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		8AB9D707000E09FDC307E591 /* Pods-LYCTplSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYCTplSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYCTplSwift/Pods-LYCTplSwift.release.xcconfig"; sourceTree = "<group>"; };
+		9CC22FC5C98A4BD53FF9B8D7 /* Pods-LYCTplSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYCTplSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYCTplSwiftUITests/Pods-LYCTplSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D4F37AF4EC9BBDC27C5B467 /* Pods-LYCTplSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYCTplSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYCTplSwiftUITests/Pods-LYCTplSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BADAEB037BF774894AFA9100 /* Pods_LYCTplSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYCTplSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7AE96C957DA11781E422E89 /* Pods-LYCTplSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYCTplSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYCTplSwift/Pods-LYCTplSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B1D9EEA108034F61980F12 /* Pods_LYCTplSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB967873315C6BFA07D16F5 /* Pods_LYCTplSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				589A940BF7C9223A23706E17 /* Pods_LYCTplSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +126,8 @@
 				045FA9BC21AEA3B60030ED7B /* LYCTplSwiftTests */,
 				045FA9C721AEA3B60030ED7B /* LYCTplSwiftUITests */,
 				045FA9A421AEA3B40030ED7B /* Products */,
+				2B47B1793ECBDB733167B3AB /* Pods */,
+				9428A0F2EF1284F7D832E426 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,6 +185,10 @@
 		045FA9D721AEA4110030ED7B /* 策略模式 */ = {
 			isa = PBXGroup;
 			children = (
+				045FACBE21B2ACAB0030ED7B /* InputValidator.swift */,
+				045FACC021B2AEA90030ED7B /* NumericInputValidator.swift */,
+				045FACC221B2B0CD0030ED7B /* AlphaInputValidator.swift */,
+				045FACC421B2B16E0030ED7B /* CustomTextField.swift */,
 				045FA9D821AEA4380030ED7B /* Strategy.swift */,
 				045FAC8421AEAB620030ED7B /* Sequence.swift */,
 				045FAC8621AEABF60030ED7B /* StrategyVC.swift */,
@@ -164,6 +199,7 @@
 		045FAC8321AEAAB50030ED7B /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				045FACD821B6CC140030ED7B /* PageController */,
 				045FAC8E21AEB0D90030ED7B /* Message */,
 				045FAC8D21AEB07F0030ED7B /* My */,
 				045FAC8C21AEB07A0030ED7B /* Find */,
@@ -205,6 +241,39 @@
 			path = Message;
 			sourceTree = "<group>";
 		};
+		045FACD821B6CC140030ED7B /* PageController */ = {
+			isa = PBXGroup;
+			children = (
+				045FACD921B6CCFC0030ED7B /* JZYISwitchVC.swift */,
+				045FACDB21B6CD410030ED7B /* JZYISwitchAVC.swift */,
+				045FACDD21B6CD4E0030ED7B /* JZYISwitchBVC.swift */,
+			);
+			path = PageController;
+			sourceTree = "<group>";
+		};
+		2B47B1793ECBDB733167B3AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7AE96C957DA11781E422E89 /* Pods-LYCTplSwift.debug.xcconfig */,
+				8AB9D707000E09FDC307E591 /* Pods-LYCTplSwift.release.xcconfig */,
+				04AD32E70BDFDC4CE80D9E22 /* Pods-LYCTplSwiftTests.debug.xcconfig */,
+				71E4E01DE39F313B79DC78D7 /* Pods-LYCTplSwiftTests.release.xcconfig */,
+				9D4F37AF4EC9BBDC27C5B467 /* Pods-LYCTplSwiftUITests.debug.xcconfig */,
+				9CC22FC5C98A4BD53FF9B8D7 /* Pods-LYCTplSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9428A0F2EF1284F7D832E426 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4247A6D3595BE66EE8B9B42F /* Pods_LYCTplSwift.framework */,
+				BADAEB037BF774894AFA9100 /* Pods_LYCTplSwiftTests.framework */,
+				3E63E269150A928C81FA7A28 /* Pods_LYCTplSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -212,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045FA9CD21AEA3B60030ED7B /* Build configuration list for PBXNativeTarget "LYCTplSwift" */;
 			buildPhases = (
+				63903D0786D8FF4ABAFDB997 /* [CP] Check Pods Manifest.lock */,
 				045FA99F21AEA3B40030ED7B /* Sources */,
 				045FA9A021AEA3B40030ED7B /* Frameworks */,
 				045FA9A121AEA3B40030ED7B /* Resources */,
+				4F580114A6B701393A96A2DE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,6 +300,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045FA9D021AEA3B60030ED7B /* Build configuration list for PBXNativeTarget "LYCTplSwiftTests" */;
 			buildPhases = (
+				D22FB537CBB0E3C5A7AA27B0 /* [CP] Check Pods Manifest.lock */,
 				045FA9B521AEA3B60030ED7B /* Sources */,
 				045FA9B621AEA3B60030ED7B /* Frameworks */,
 				045FA9B721AEA3B60030ED7B /* Resources */,
@@ -247,6 +319,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045FA9D321AEA3B60030ED7B /* Build configuration list for PBXNativeTarget "LYCTplSwiftUITests" */;
 			buildPhases = (
+				E07F8AA14BD8D735FCE215CD /* [CP] Check Pods Manifest.lock */,
 				045FA9C021AEA3B60030ED7B /* Sources */,
 				045FA9C121AEA3B60030ED7B /* Frameworks */,
 				045FA9C221AEA3B60030ED7B /* Resources */,
@@ -331,21 +404,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F580114A6B701393A96A2DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LYCTplSwift/Pods-LYCTplSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PagingMenuController/PagingMenuController.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PagingMenuController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYCTplSwift/Pods-LYCTplSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63903D0786D8FF4ABAFDB997 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYCTplSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D22FB537CBB0E3C5A7AA27B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYCTplSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E07F8AA14BD8D735FCE215CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYCTplSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		045FA99F21AEA3B40030ED7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045FACDC21B6CD410030ED7B /* JZYISwitchAVC.swift in Sources */,
+				045FACC521B2B16E0030ED7B /* CustomTextField.swift in Sources */,
 				045FAC9021AEB0E80030ED7B /* MessageVC.swift in Sources */,
 				045FAC9421AEB1060030ED7B /* FindVC.swift in Sources */,
 				045FAC9221AEB0F40030ED7B /* MyVC.swift in Sources */,
+				045FACDA21B6CCFC0030ED7B /* JZYISwitchVC.swift in Sources */,
+				045FACC121B2AEA90030ED7B /* NumericInputValidator.swift in Sources */,
 				045FA9D921AEA4380030ED7B /* Strategy.swift in Sources */,
+				045FACDE21B6CD4E0030ED7B /* JZYISwitchBVC.swift in Sources */,
 				045FAC8B21AEB0770030ED7B /* HomeVC.swift in Sources */,
 				045FAC8721AEABF60030ED7B /* StrategyVC.swift in Sources */,
 				045FAC8521AEAB620030ED7B /* Sequence.swift in Sources */,
 				045FAC9821AEB4DC0030ED7B /* LYCNavigationController.swift in Sources */,
 				045FAC9A21AEB5180030ED7B /* LYCTabBarController.swift in Sources */,
 				045FA9A721AEA3B50030ED7B /* AppDelegate.swift in Sources */,
+				045FACC321B2B0CD0030ED7B /* AlphaInputValidator.swift in Sources */,
+				045FACBF21B2ACAB0030ED7B /* InputValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +677,7 @@
 		};
 		045FA9CE21AEA3B60030ED7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7AE96C957DA11781E422E89 /* Pods-LYCTplSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +696,7 @@
 		};
 		045FA9CF21AEA3B60030ED7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB9D707000E09FDC307E591 /* Pods-LYCTplSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +715,7 @@
 		};
 		045FA9D121AEA3B60030ED7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04AD32E70BDFDC4CE80D9E22 /* Pods-LYCTplSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -573,6 +737,7 @@
 		};
 		045FA9D221AEA3B60030ED7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71E4E01DE39F313B79DC78D7 /* Pods-LYCTplSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -594,6 +759,7 @@
 		};
 		045FA9D421AEA3B60030ED7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D4F37AF4EC9BBDC27C5B467 /* Pods-LYCTplSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -614,6 +780,7 @@
 		};
 		045FA9D521AEA3B60030ED7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC22FC5C98A4BD53FF9B8D7 /* Pods-LYCTplSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
